@@ -32,7 +32,33 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.Card {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left;
+}
+
+.Card>h2 {
+  display: inline;
+}
+
+.CardStats {
+  display: flex;
+  flex-flow: row, wrap;
+}
+
+.CardStatsItem {
+  margin: 0.25rem;
+  flex: 25%;
+}
+
+.CardStatsItem>p {
+  font-weight: bold;
 }
