@@ -45,7 +45,7 @@
   text-align: left;
 }
 
-.Card>h2 {
+.Card > h2 {
   display: inline;
 }
 
@@ -59,6 +59,6 @@
   flex: 25%;
 }
 
-.CardStatsItem>p {
+.CardStatsItem > p {
   font-weight: bold;
 }
